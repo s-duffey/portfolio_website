@@ -69,8 +69,8 @@ body:after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-primary {
-    background: #ED9D8F;
-    border-color: #ED9D8F;
+    background: #981f40;
+    border-color: #981f40;
     color: #fff; }
     .btn.btn-primary:hover {
       background: #000;
@@ -566,7 +566,7 @@ body:after {
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-        color: #fab95b !important; }
+        color: #CF2A56 !important; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
@@ -587,6 +587,9 @@ body:after {
   .site-blocks-cover, .site-blocks-cover > .container > .row {
     min-height: 600px;
     height: calc(100vh); }
+  .site-blocks-cover.blog, .site-blocks-cover > .container > .blog {
+    min-height: 600px;
+    height: calc(50vh); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
     min-height: 400px;
     height: calc(20vh); }
@@ -602,7 +605,8 @@ body:after {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    z-index: 1; }
+    z-index: 1; 
+    width: 100%; }
     @media (max-width: 991.98px) {
       .site-blocks-cover .img-face {
         -webkit-transform: translate(-70%, -50%);
@@ -655,7 +659,7 @@ body:after {
       height: 50px;
       line-height: 50px;
       border-radius: 50%;
-      background: #ED9D8F;
+      background: #CF2A56;
       display: inline-block;
       color: #fff;
       text-align: center; }
@@ -995,3 +999,25 @@ figure figcaption {
   margin-top: .5rem;
   font-style: italic;
   font-size: .8rem; }
+
+a { color: #CF2A56; }
+a:hover {
+  color: #981f40;
+}
+.bg-pink {
+  background: #981f40;
+}
+.services-main-nav .site-navigation .site-menu > li > a {
+  padding: 5px 20px;
+  display: inline-block;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.services-main-nav .site-navigation .site-menu > li > a:hover {
+  color: #981f40 !important;
+}
+
+.services-main-nav .site-logo a {
+  color: black !important;
+}
