@@ -588,7 +588,7 @@ body:after {
     min-height: 600px;
     height: calc(100vh); }
   .site-blocks-cover.blog, .site-blocks-cover > .container > .blog {
-    min-height: 600px;
+    min-height: 435px;
     height: calc(50vh); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
     min-height: 400px;
@@ -1020,4 +1020,14 @@ a:hover {
 
 .services-main-nav .site-logo a {
   color: black !important;
+}
+
+.text-small {
+  font-size: 80% !important;
+  font-weight: 400;
+}
+
+.site-navbar .logo-img {
+  width: 180px;
+  margin-top: -7px;
 }
