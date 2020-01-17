@@ -1031,3 +1031,8 @@ a:hover {
   width: 180px;
   margin-top: -7px;
 }
+
+.btn-primary:active {
+  background-color: #6e162d !important;
+  color: white !important;
+}
