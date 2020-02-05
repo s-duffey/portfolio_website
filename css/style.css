@@ -1027,10 +1027,28 @@ a:hover {
   font-weight: 400;
 }
 
-.site-navbar .logo-img {
+.logo-img {
   width: 180px;
+  height: 82px;
   margin-top: -7px;
+  background-image: url('../images/SD_logo.png');
+  background-size: cover;
+  transition: background-image .45s;
 }
+
+.is-sticky .logo-img {
+  background-image: url('../images/SD_logo_alt.png');
+}
+
+.logo-img-alt {
+  width: 180px;
+  height: 82px;
+  margin-top: -7px;
+  background-image: url('../images/SD_logo_alt.png');
+  background-size: cover;
+  transition: background-image .45s;
+}
+
 
 .btn-primary:active {
   background-color: #6e162d !important;
