@@ -1376,6 +1376,10 @@ a:hover {
   padding-top: 10em;
 }
 
+.service-link p {
+  color: #666666;
+}
+
 @media (max-width: 768px) {
   .spacer {
     padding-top: 7em;
