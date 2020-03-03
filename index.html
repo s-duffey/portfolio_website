@@ -296,7 +296,7 @@
     </section>
 
 <!----- Contact section ----> 
-    <section class="site-section" id="contact-section">
+    <section class="site-section bg-secondary" id="contact-section">
       <div class="container">
         <div class="row">
           <div class="col-12 mb-5 position-relative">
@@ -306,28 +306,33 @@
         <form action="#" class="form">
           <div class="row mb-4">
             <div class="form-group col-6">
-              <input type="text" class="form-control" placeholder="First name">
+              <label for="first">First name</label>
+              <input id="first" name="first" type="text" class="form-control" placeholder="First name">
             </div>
             <div class="form-group col-6">
-              <input type="text" class="form-control" placeholder="Last name">
+              <label for="last">Last name</label>
+              <input name="last" id="last" type="text" class="form-control" placeholder="Last name">
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="email" class="form-control" placeholder="Email address">
+              <label for="email">Email Address</label>
+              <input name="email" name="email" type="email" class="form-control" placeholder="Email address">
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="text" class="form-control" placeholder="Subject of the message">
+              <label for="subject">Subject</label>
+              <input name="subject" id="subject" type="text" class="form-control" placeholder="Subject of the message">
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
             </div>
           </div>
 
