@@ -1385,3 +1385,7 @@ a:hover {
     padding-top: 7em;
   }
 }
+
+.sticky-wrapper .site-navbar .site-menu-toggle .icon-menu.dark {
+  color: black;
+}
