@@ -1115,7 +1115,7 @@ body:after {
   color: #000;
 }
 .blog_entry h3 a:hover {
-  color: #fab95b;
+  color: #cf2a56;
 }
 
 .blog_entry .date {
@@ -1125,10 +1125,21 @@ body:after {
   margin-bottom: 15px;
 }
 
+.form-control {
+  color: black !important;
+  border-color: #666666 !important;
+}
+
+.form-control:active,
+.form-control:hover,
+.form-control:focus {
+  border-color: #cf2a56 !important;
+}
+
 .form .form-control {
   border: none;
   border-radius: 0px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #666666;
 }
 .form .form-control:active,
 .form .form-control:focus {
@@ -1400,4 +1411,13 @@ a:hover {
   column-count: 2;
   column-gap: 20px;
   column-fill: auto;
+}
+
+#contact-section label {
+  font-size: 1.2rem;
+  color:#444444;
+}
+
+.form-control::placeholder {
+  color: #777777;
 }
