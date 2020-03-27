@@ -645,14 +645,14 @@ body:after {
   color: #212529;
 }
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #fab95b;
+  color: #981f40;
 }
 .site-mobile-menu .site-nav-wrap li {
   position: relative;
   display: block;
 }
 .site-mobile-menu .site-nav-wrap li .active {
-  color: #fab95b;
+  color: #981f40;
 }
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
   position: absolute;
@@ -1119,7 +1119,7 @@ body:after {
 }
 
 .blog_entry .date {
-  color: #999999;
+  color: #666666;
   display: block;
   font-size: 0.9rem;
   margin-bottom: 15px;
@@ -1146,10 +1146,10 @@ body:after {
   margin-bottom: 10px;
 }
 .footer a {
-  color: #888888;
+  color: #666666;
 }
 .footer a:hover {
-  color: #000;
+  color: #cf2a56 !important;
 }
 
 .progress {
@@ -1388,4 +1388,16 @@ a:hover {
 
 .sticky-wrapper .site-navbar .site-menu-toggle .icon-menu.dark {
   color: black;
+}
+
+.multi-column {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -moz-column-fill: auto;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -webkit-column-fill: auto;
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: auto;
 }
