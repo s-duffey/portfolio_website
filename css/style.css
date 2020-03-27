@@ -1421,3 +1421,7 @@ a:hover {
 .form-control::placeholder {
   color: #777777;
 }
+
+.social-circle {
+    font-size: 1.1rem;
+}
