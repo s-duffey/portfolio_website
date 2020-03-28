@@ -1108,12 +1108,16 @@ body:after {
   border-top: none;
 }
 
+.blog_entry h2,
 .blog_entry h3 {
   font-size: 1.3rem;
+    line-height: 1.8rem;
 }
+.blog_entry h2 a,
 .blog_entry h3 a {
   color: #000;
 }
+.blog_entry h2 a:hover,
 .blog_entry h3 a:hover {
   color: #cf2a56;
 }
