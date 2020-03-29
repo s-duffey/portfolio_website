@@ -1398,7 +1398,18 @@ a:hover {
   .spacer {
     padding-top: 7em;
   }
+
 }
+
+@media (max-width: 992px) {  
+    .sm-align-middle {
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 .sticky-wrapper .site-navbar .site-menu-toggle .icon-menu.dark {
   color: black;
