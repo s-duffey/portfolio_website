@@ -812,7 +812,7 @@ body:after {
 .site-blocks-cover.blog,
 .site-blocks-cover > .container > .blog {
   min-height: 435px;
-  height: calc(50vh);
+  height: calc(65vh);
 }
 .site-blocks-cover.inner-page-cover,
 .site-blocks-cover.inner-page-cover > .container > .row {
@@ -1407,6 +1407,13 @@ a:hover {
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media (max-width: 576px) {  
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
     }
 }
 
