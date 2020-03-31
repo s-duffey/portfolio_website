@@ -257,7 +257,20 @@ jQuery(document).ready(function ($) {
 			Subject: $('#contact-form input[name="name"]').val() + ' - ' + $('#contact-form input[name="subject"]').val(),
 			Body: $('#contact-form textarea[name="message"]').val() + ' ' + $('#contact-form input[name="email"]').val()
 		}).then(
-			message => alert(message)
+			message => {
+				switch (message) {
+					case 'OK':
+						$('.form-feedback').html('<div class="alert alert-success alert-dismissible fade show" role="alert"><strong>Thank you!</strong> Your message has been sent. I will get back to you soon. <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>')
+						$('#contact-form input').each(function () {
+							if ($(this).attr('type') != 'submit') {
+								$(this).val('');
+							}
+						});
+						$('#contact-form textarea[name="message"]').val('')
+						break;
+					default:
+				}
+			}
 		);
 	});
 
