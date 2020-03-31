@@ -1568,3 +1568,11 @@ a:hover {
     color: black;
   }
 }
+
+@media(max-width: 400px){
+  .site-blocks-cover.blog, .site-blocks-cover > .container > .blog {
+    min-height: 435px;
+    padding-top: 60px;
+    height: fit-content;
+  }
+}
