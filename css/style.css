@@ -836,13 +836,14 @@ body:after {
   z-index: 1;
   width: 100%;
 }
+/*
 @media (max-width: 991.98px) {
   .site-blocks-cover .img-face {
     -webkit-transform: translate(-70%, -50%);
     -ms-transform: translate(-70%, -50%);
     transform: translate(-70%, -50%);
   }
-}
+}*/
 
 .section-title {
   position: relative;
@@ -1445,4 +1446,92 @@ a:hover {
 
 .social-circle {
     font-size: 1.1rem;
+}
+
+#home-section {
+  background: #6c757d;
+  color:white;
+}
+
+#home-section h1,
+#home-section a {
+  color: white;
+}
+
+@media(max-width: 1640px){
+
+
+  .site-blocks-cover .img-face {
+    width: 125%;
+  }
+}
+
+@media(max-width: 1350px){
+  .site-blocks-cover,
+  .site-blocks-cover > .container > .row {
+    height: calc(85vh);
+  }
+}
+
+@media(max-width: 1144px){
+  .site-blocks-cover .img-face {
+    width: 140%;
+  }
+}
+
+@media(max-width: 1000px){
+  .site-blocks-cover .img-face {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 720px;
+    top:initial;
+    left:initial;
+    transform:translate(0%,0%);
+  }
+
+  .site-blocks-cover,
+  .site-blocks-cover > .container > .row {
+    min-height: auto;
+  }
+
+  .site-blocks-cover {
+    height: calc(100vh);
+    padding-top:110px;
+  }
+
+  .site-blocks-cover > .container > .row {
+    height: auto;
+  }
+
+  #home-section {
+    background: white;
+    color: black;
+  }
+
+  .site-blocks-cover .lead, .site-blocks-cover p {
+    font-size: 1.3rem;
+    color: black;
+}
+
+  #home-section h1,
+  #home-section a {
+    color: black;
+  }
+
+  #home-section .btn {
+    color:white;
+  }
+
+  .home.logo-img {
+    background-image: url("../images/SD_logo_alt.png")
+  }
+
+  .sticky-wrapper .site-navbar .home.site-menu-toggle .icon-menu {
+    color: black;
+  }
 }
