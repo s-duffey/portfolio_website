@@ -205,7 +205,6 @@ jQuery(document).ready(function ($) {
 	var OnePageNavigation = function () {
 		var navToggler = $('.site-menu-toggle');
 		$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function (e) {
-			e.preventDefault();
 
 			var hash = this.hash;
 

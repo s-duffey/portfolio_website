@@ -1576,3 +1576,14 @@ a:hover {
     height: fit-content;
   }
 }
+
+@media(max-width: 768px){
+  #PopupSignupForm_0 iframe {
+    height: 116px !important;
+  }
+
+  #PopupSignupForm_0 .mc_banner {
+    top: initial;
+    bottom: 0;
+  }
+}
