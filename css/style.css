@@ -1579,7 +1579,7 @@ a:hover {
 
 @media(max-width: 768px){
   #PopupSignupForm_0 iframe {
-    height: 116px !important;
+    min-height: 116px !important;
   }
 
   #PopupSignupForm_0 .mc-banner {
