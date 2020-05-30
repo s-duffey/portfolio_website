@@ -1556,6 +1556,10 @@ a:hover {
     color: black;
   }
 
+  #home-section a.text-white {
+    color: black !important;
+  }
+
   #home-section .btn {
     color:white;
   }
