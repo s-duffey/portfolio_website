@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Practical Tips for Creating Accessible Web Content </title>
+  <!---- Page metadata --->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description"
+    content="Web accessibility refers to designing and developing websites in a way that provides alternative methods of use to accommodate users with diverse needs and levels of ability.">
+  <meta property="og:title" content="Practical Tips for Creating Accessible Web Content">
+  <meta property="og:description"
+    content="Web accessibility refers to designing and developing websites in a way that provides alternative methods of use to accommodate users with diverse needs and levels of ability.">
+  <meta property="og:url" content="https://www.sierraduffey.ca/blogs/Accessibility.html">
+
+  <!---- Use 300 x 200 minimum for image ---->
+  <meta property="og:image" content="../images/blogs/Accessibility/accessibility-4.jpg">
+
+  <!----- Twitter Metadata ----->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@s_duffey">
+  <meta name="twitter:image:alt" content="Three people working at a table and laughing together">
+
+  <link rel="icon" type="image/png" href="https://sierraduffey.ca/favicon.png">
+
+  <!----- Stylesheets ---->
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../fonts/icomoon/style.css" />
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/jquery-ui.css" />
+  <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="../css/owl.theme.default.min.css" />
+
+  <link rel="stylesheet" href="../css/jquery.fancybox.min.css" />
+
+  <link rel="stylesheet" href="../css/bootstrap-datepicker.css" />
+
+  <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css" />
+
+  <link rel="stylesheet" href="../css/aos.css" />
+
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98096811-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-98096811-2');
+  </script>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+          <div class="">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li>
+                  <a href="../index.html#services-section" class="nav-link">Services</a>
+                </li>
+                <li>
+                  <a href="../index.html#portfolio-section" class="nav-link">Portfolio</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class=" text-center mx-5">
+            <span class="m-0 site-logo h1">
+              <a href="../index.html">
+                <div class="logo-img"></div>
+                <span class="sr-only">Home</span>
+              </a>
+            </span>
+          </div>
+
+          <div class="text-left">
+            <nav class="site-navigation position-relative" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li>
+                  <a href="../index.html#blog-section" class="nav-link">Blog</a>
+                </li>
+                <li>
+                  <a href="../index.html#contact-section" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;">
+              <a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+      <main>
+
+    <div class="site-blocks-cover blog bg-pink" data-aos="fade">
+      <div class="container">
+        <div class="blog row align-items-center justify-content-center">
+          <div class="col-md-12 mt-lg-5 text-center">
+            <h1 class="text-white">
+              Practical Tips for Creating Accessible Web Content
+            </h1>
+            <p class="post-meta text-white">July 4, 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="site-section pt-4 mb-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <a href="../blogs.html" class="mb-3">Back to all blogs</a>
+          <div class="col-12 blog-content">
+                <div class="col-lg-12">
+                    <figure>
+                        <img src="../images/blogs/Accessibility/accessibility-4.jpg"
+                    alt="Three people working at a table and laughing together" class="img-fluid">
+                        <figcaption> Photo by Brooke Cagle on Unsplash </figcaption>
+                    </figure>
+                </div>
+            <h2> What is web accessibility and why is it important for your site? </h2>
+            <p>
+                Web accessibility refers to designing and developing websites in a way that provides alternative methods of use to accommodate users with diverse needs and levels of ability. This can include disabilities such as colour blindness or keyboard-only users, but also provides options for anyone using the site in varying situations. Designing alternative methods of use gives greater flexibility for everyone - closed captions on videos, tabbing through an online form, and getting accurate feedback on whether you entered errors when checking out of an online cart. 
+            </p>
+            <p>
+                Think of the last time you filled out a frustrating form online. It probably wasn’t mobile-friendly, the labels didn’t make sense and it kept giving you errors. These are all examples of how an online experience goes sour when accessibility isn’t factored into the design. 
+            </p>
+            <p>
+                Accessibility isn’t something to consider only in the development stage. While a lot of accessibility is reliant on the code of your site, you can actually create content and design your pages for accessibility right from the beginning. There are plenty of guidelines available for writing content that is understandable to the most people possible, using design elements that actually enhance your content rather than distract from it, and coding in accommodations that allow users to access different elements the way they need to. 
+            </p>
+            <p>
+                The best thing you can do to create an accessible site is to work with experienced content, interaction and web designers who care about inclusive experiences. Knowing that isn't always possible, at least do a bit of research into accessibility and keep it in mind when creating your content. 
+            </p>
+            <p>
+                If you’re creating a website on your own, or working with someone later on, here are some important things to consider when integrating accessibility into your site from the beginning. Please note that this is not a comprehensive guide, but a starting point to make you aware of the complexity of creating accessible content and the importance of working with experienced web and digital designers to create a great product that works for everyone. 
+            </p>
+            <h2> Writing for accessibility </h2>
+            <div class="col-lg-12">
+                <figure><img src="../images/blogs/Accessibility/accessibility-5.jpg"
+                    alt="A close-up of a Black women's hands typing on a keyboard of a laptop" class="img-fluid">
+                  <figcaption> Photo by wocintechchat on Unsplash </figcaption>
+                </figure>
+            </div>
+            <p>
+                Before you start even thinking about what your website will look like, you should start with the content that you will have. Writing your content with accessibility in mind will help keep your content clean, precise and pleasant to read. Writing for the web is more about getting people to the right places and sharing information clearly and quickly, rather than telling a detailed story. 
+            </p>
+
+            <h3> Reading level </h3>
+            <p>
+                When writing for the web, one important factor to consider is the reading level of your text. People with cognitive disabilities, multiple languages or limited attention spans (which is everyone!) need quick and easy content to lead them to the right place. Keeping your content at a low reading level will help readers stay focused and actually take action. Whenever writing web copy, the Hemingway Editor is a great tool to keep writing clear and assess the reading level. A good practice for the web is to keep content at a Grade 8 level or lower. 
+            </p>
+            <p>
+                Example:
+                <br>
+                <b>Before - Post graduate reading level</b>
+                <br> 
+                If you take less than your entitled share of production for any month, but you pay royalties on the full volume of your entitled share in accordance with the provisions of this section, you will owe no additional royalty for that lease for prior periods when you later take more than your entitled share to balance your account. This also applies when the other participants pay you money to balance your account.
+                <br> 
+                <br> 
+                <b> After - Grade 4 reading level </b>
+                <br> 
+                Suppose that one month you pay royalties on your full share of production but take less than your entitled share. In this case, you may balance your account in one of the following ways without having to pay more royalty. You may either:
+                <ul> 
+              <li> 
+                    Take more than your entitled share in the future; or
+            </li>
+                <li> 
+                   Accept payment from other participants 
+                </li>
+              </ul>
+              Source: <a href="https://plainlanguage.gov/guidelines/concise/write-short-sentences/"> Write short sentences, plainlanguage.gov </a>
+            </p>
+
+                <h3>
+                  Headers and HTML tagging
+                </h3>
+                <p>
+                    No matter which software you are using to write your content, you need to be aware of headings and formatting. When you put proper headings into your content it actually adds a tag to that section of text in the code that makes it easier to style later and scan through a page. Headers are key to giving sense to your content and identifying what each paragraph will be talking about. They not only make your content visually easier to read, but also allow screen-readers and other assistive technology to move through a webpage. 
+                </p>
+                <p>
+                    Headers are also great for breaking up your content into smaller, relevant chunks. This makes it easier for people to find what exactly they are looking for if they don’t have time or the attention span to read the entire page. This is also great for search engines that recommend your page based on heading titles and different formatting options. If you have a search bar on your website headings are important to help people find sections that they are asking about. 
+                </p>
+                <h3> Hyperlinks with context </h3>
+                <p>
+                    One of my biggest pet peeves as a content designer is seeing hyperlinks on a web page that say “Click here!” DO NOT DO THIS. You need to give context to your hyperlinks. Let your readers know where they are going when they click the link. Put this information right in the link text, not before or after the link. Users with screen-readers and audio devices need text to know what will happen when they access the link. Everyone wants to know why you are asking them to go somewhere else or download something. Don’t leave your users guessing, give them a good reason to divert their attention away from your words.  Click here means nothing. 
+                </p>
+                <p>
+                    Example:
+                    <br>
+                    <b> Bad: </b>
+                    <a href="https://www.sierraduffey.ca/blogs/Accessibility.html">Click here </a> to read my blog about accessibility. 
+                    <br>
+                    <b> Better" </b>
+                    Read my <a href="https://www.sierraduffey.ca/blogs/Accessibility.html">blog about accessibility.</a> 
+                </p>
+              </div>
+            </div>
+                <h2> Using images and visuals </h2>
+                <div class="col-lg-12">
+                    <figure>
+                        <img src="../images/blogs/Accessibility/accessibility-3.jpg"
+                        alt="A woman's hand holding a coffee cup on a table with camera and crafting equipment" class="img-fluid">
+                        <figcaption> Photo by Brooke Lark on Unsplash </figcaption>
+                </figure>
+                </div>
+                <p>
+                    Using images and visuals bring a website alive and give it character, but it’s also important to use the imagery in a way that enhances the content rather than distracts from it. Visuals need to be strategic and provide value to both people who can see it and people who can’t. If you are using visuals to show the main point, make sure there are other formats to access the same content. Here are some necessary steps to take when incorporating visuals into your content. 
+                </p>
+
+                <h3> Alternative text </h3>
+                <p>
+                    If you are adding an image ANYWHERE on your site or post, add alternative text. There are some exceptions for purely decorative visuals, but to be on the safe side, add alternative text. Alternative text is a description of the image that will appear if the visual can’t load for whatever reason, or if your user is using a screen-reader. When writing the alternative text for an image, don’t include one word. Be descriptive about what information the image is providing. 
+                </p>
+                <p>
+                    <b>Example:</b>
+                    <br>
+                    This would be bad versus better alternative text for the following image. 
+                    <br>
+                    Bad: No alt text or alt text = "Bottles"
+                    <br>
+                    Better: Alt text = "Three glass bottles with orange liquid on a white background."
+                    <img src="../images/blogs/Accessibility/accessibility-1.jpg"
+                    alt="A woman's hand holding a coffee cup on a table with camera and crafting equipment" class="img-fluid">
+                </p>
+                <p> Fortunately, we’ve been seeing more and more social media platforms also adding the option for alternative text on images. If you have the option, take it. As another bonus, Google and other search engines prefer to show images with clear descriptions. </p>
+  
+
+            <h3> Size, resolution and load times </h3>
+            <p>
+                When using visuals on your website, understand how they will affect the speed of your site. I’ve seen some websites that are breathtaking when they finally load on a big screen, but they stay completely blank when you try to load it on your phone. Especially with more and more people going mobile, and many people with still-limited internet speeds, keeping your website fast is essential. 
+            </p>
+            <p>
+              Before exporting images and graphics to use on your website, make sure you know the sweet spot for keeping the quality while also keeping the file size low. This varies for each type of image but you can look it up to get some ideas of the ideal file size.  If you aren’t sure, ask your photographer or graphic designer to give you a copy of the graphic that’s web-optimized. 
+            </p>
+            <h3> Colour contrast </h3>
+            <p> 
+                Did you know that 1 in 3 men have some form of colour blindness? This means that while that white text on blush pink looks pretty, it becomes hard to read for a lot of people.  This becomes even more important when the text shrinks in size on smaller screens. Making sure the text has sufficient colour contrast to its background is important for people to actually be able to read it! Whenever you’re including images on your website, be careful when overlaying text on an image or coloured background. If you are using a big beautiful image as a banner or for an overlay, try to stick to images with simple, solid background colours so the contrast doesn’t get muddled throughout. 
+          </p>
+            
+            <p> 
+                When using charts and graphs it's also important that each piece has enough contrast so you can tell the difference between them. While that pastel colour palette might look nice and follow your brand, it’s not usable by people who can’t tell the difference between each slice on your pie chart.
+            </p>
+            <p> 
+                Colour contrast gets tricky and even if it LOOKS fine it often isn’t. Use an online contrast checker to see if your text actually will be easy to read on whatever colour is used behind it.  
+            </p>
+            <p> 
+                Examples: 
+                    <img src="../images/blogs/Accessibility/contrast_example.png"
+                    alt="A woman's hand holding a coffee cup on a table with camera and crafting equipment" class="img-fluid">
+            </p>
+            <h2> Need to learn more? Reach out to credible accessibility experts and advocates</h2>
+            <p> 
+                I could write a whole blog post about the technical side of accessibility and how to account for it in your code, but people much more knowledgeable and experienced than me have written extensively on the topic. 
+            </p>
+            <p> 
+                The best advice I could give is to <strong>work with a developer who is knowledgeable and cares about accessibility.</strong> Explicitly ask them about accessibility before you hire them. If they actually care, they should be able to tell you how they incorporate it in their design or at least have a clue what you’re talking about. Don’t be surprised if they haven’t heard much about accessibility, it is still a relatively new concept in web design, particularly in the private sector where it is not legislated. Do your own research, and reach out to professionals who have done theirs too. 
+            </p>
+            <div class="col-lg-5 align-self-center">
+                <figure class="sm-align-middle">
+                  <img src="../images/blogs/Accessibility/accessibility-6.jpg"
+                    alt="Black man working on a laptop in an office environment"
+                    class="img-fluid " />
+                </figure>
+              </div>
+            <p> 
+                If you’re working with a drag-and-drop style website builder, that’s fine. Most have considered accessibility in their designs and allow you to account for it in some ways if you know where to look. But <strong>hire a content designer or a web designer to at least do an accessibility review of your website before you publish it.</strong> The more I’ve learned about web design, the more I’ve noticed website builders are missing some key components of accessibility and only include elements that also help with Search Engine Optimization (SEO). This may completely stop users from being able to use your site, check out of your online store, or actually do what they need to do on your pages. Get someone to test your designs, it will save you A LOT of money in the long run. 
+            </p>
+            <p> 
+               And lastly, if you want a great website that’s well-designed, inclusive and optimized for search engines, you gotta work with professionals. Pay the people who know what they’re doing and it will make your website better for everyone, including you and your business.  
+            </p>
+            <p> 
+
+            </p>
+            <h3> Accessibility audits </h3>
+            
+            <p> 
+                <b>Accessibility audits</b> are a service I offer as part of my content strategy work. In addition to reviewing your website for clarity, usability and design, I also perform an audit on accessibility features. Send me an email if you would like to set up a holistic website audit for your business. 
+            </p>
+            <p> 
+                You audit will include a review of your content as well as technical requirements related to accessibility. Get in touch to set up a free consultation to go over the type of audit you may need, and the complexity of your digital materials. Prices for audits vary on the complexity and volume of your content. 
+            </p>
+            <p>
+                <a href="../index.html#contact-section" class="btn smoothscroll btn-primary">Request an accessibility audit</a>
+            </p>
+            <h2> Resources for further learning </h2>
+            <p> 
+                If you are interested in learning about inclusivity more broadly, here’s a list of some great resources for accessible design:  
+            </p>
+            <p> 
+            <b>Advocacy:</b> 
+            <ul> 
+                <li>            
+                    <a href="https://sparkclarity.ca/">Spark Clarity</a>: Clary Chambers is an accessibility, mental health and inclusivity advocate from Ottawa. Spark Clarity is her business that runs workshop series, keynote speaking engagements and other events to advocate for more inclusive practices. 
+                </li>
+                <li>
+                    <a href="https://www.reach.ca/english/main/home.html">REACH Canada</a>: offers educational programs and independent legal referral services that address the rights and interests of persons with disabilities, fostering access to justice in the community.
+                </li>
+            </ul>
+
+          <b>Guidelines, research and legal:</b>
+          <ul>
+            <li>
+                <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1 Guidelines</a>: The main accessibility standards for web development. WCAG outlines the technical requirements for websites, apps and digital media to be fully accessible to varying levels of ability. 
+            </li>
+            <li>
+                <a href="https://accessibilitycanada.ca/resources/">List of resources from Accessibility Canada</a>: A handy list of accessibility resources, including legislation, technical guides and awareness resources.
+            </li>
+            <li>
+                <a href="https://idrc.ocadu.ca/">Inclusive Design Research Centre</a> at OCAD university: An international community of open source developers, designers, researchers, educators and co-designers who work together to proactively ensure that emerging technology and practices are designed inclusively.
+            </li>
+          </ul>
+          
+          <b> Accessible design toolkits and developer tools: </b>
+          <ul>
+            <li>
+                <a href="https://plainlanguage.gov/guidelines/">United States Government, plain language guidelines</a>
+            </li>
+            <li>
+                <a href="https://www.ontario.ca/page/inclusive-design-toolkit">Inclusive design toolkit from the Ontario Digital Service</a>
+            </li>
+            <li>
+                <a href="https://www.microsoft.com/design/inclusive/">Microsoft Inclusive design</a>
+            </li>
+            <li>
+                <a href="https://www.accessibility.sa.gov.au/">Government of South Australia’s online Accessibility Toolkit</a>
+            </li>
+            <li>
+                <a href="https://www.deque.com/axe/">Axe accessibility testing</a>: Browser extension that helps web developers and designers check websites and other digital media for accessibility requirements
+            </li>
+            <li> 
+                <a href="https://wave.webaim.org/extension/">WAVE accessibility tool</a>: Browser extension that helps web developers and designers check websites and other digital media for accessibility requirements
+            </li>
+          </ul>
+          
+          <b> Books </b>
+          <ul> 
+          <li>
+                A Book Apart, <a href="https://abookapart.com/products/accessibility-for-everyone">Accessibility for Everyone</a> by Laura Kalbag 
+            </li>
+            <li>
+                Rosenfeld, <a href="https://rosenfeldmedia.com/books/a-web-for-everyone/">A Web for Everyone</a> by Sarah Horton and Whitney Quesenbery 
+            </li>
+            <li>
+                Registered Graphic Designers, <a href="https://www.rgd.ca/resources/accessibility/access">A Practical Handbook on Accessible Graphic Design</a>
+            </li>
+          </ul>
+          </p>
+        <p> 
+            Thanks for reading! 
+        </p>
+        <div class="col-lg-12">
+            <figure>
+                <img src="../images/blogs/Accessibility/accessibility-2.jpg"
+                alt="A close-up of a Black women's hands typing on a keyboard of a laptop" class="img-fluid">
+                <figcaption> Photo by John Schnobrich on Unsplash </figcaption>
+            </figure>
+            </div>
+          
+
+            <hr/>
+          </div>
+        </div>
+      </div>
+    </section>
+          
+    <section class="container mb-4 pb-3">
+        <div class="row">
+            <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <h2 class="h4 col"> Get new blog posts straight to your inbox! </h2>
+                    <form action="https://sierraduffey.us14.list-manage.com/subscribe/post?u=a66b26e5bb9e1cbe29830c847&amp;id=2aa88202eeSOURCE=Blog" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <div class="form-group col-md-8 col-xs-12">
+                                <label for="mce-EMAIL">Email Address</label>
+                                <input type="email" value="" name="EMAIL" class="email  form-control" id="mce-EMAIL" placeholder="name@example.com" required>
+                            </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a66b26e5bb9e1cbe29830c847_2aa88202ee" tabindex="-1" value=""></div>
+                        <div class="clear col"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-primary btn"></div>
+                        </div>
+                    </form>
+                </div>
+            <!--End mc_embed_signup-->
+        </div>
+    </section>
+          
+    </main>
+
+    <!----- Footer ---->
+    <footer class="site-section bg-light footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3">
+            <h3 class="footer-title">Sierra Duffey</h3>
+            <p>Photographer, content strategist and project manager. I work with Canadian creatives, entrepreneurs and
+              small businesses.
+            </p>
+            <a href="mailto:hello@sierraduffey.ca">hello@sierraduffey.ca</a>
+            <p><span class="d-inline-block d-md-block">Ottawa, Ontario, CA</p>
+          </div>
+          <div class="col-md-5 mx-auto">
+            <div class="row">
+              <div class="col">
+                <h3 class="footer-title">Services</h3>
+                <ul class="list-unstyled multi-column">
+                  <li><a href="../services/portrait.html">Portrait Photography</a></li>
+                  <li><a href="../services/product.html">Product Photography</a></li>
+                  <li><a href="../services/wedding.html">Wedding Photography</a></li>
+                  <li><a href="../services/content-design.html">Content Strategy</a></li>
+                  <li><a href="../index.html#contact-section">Project Management</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3 class="footer-title">Stay Connected</h3>
+            <a href="https://mailchi.mp/8f413d1a7441/subscribe" class="social-circle p-2"><span
+                class="icon-envelope"></span><span class="sr-only">Email</span></a>
+            <a href="https://www.instagram.com/s_duffey/" class="social-circle p-2"><span
+                class="icon-instagram"></span><span class="sr-only">Instagram</span></a>
+            <a href="https://www.linkedin.com/in/sierraduffey/" class="social-circle p-2"><span
+                class="icon-linkedin"></span><span class="sr-only">LinkedIn</span></a>
+            <a href="https://twitter.com/s_duffey" class="social-circle p-2"><span class="icon-twitter"></span><span
+                class="sr-only">Twitter</span></a>
+            <a href="https://www.facebook.com/sierraduffeyphoto/" class="social-circle p-2"><span
+                class="icon-facebook"></span><span class="sr-only">Facebook</span></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p>Copyright Sierra Duffey&copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+              with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                target="_blank">Colorlib</a></p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- .site-wrap -->
+
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/jquery-ui.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/jquery.easing.1.3.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/jquery.fancybox.min.js"></script>
+  <script src="../js/jquery.sticky.js"></script>
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
