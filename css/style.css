@@ -1441,6 +1441,12 @@ a:hover {
 
 }
 
+.img-align-middle {
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+    margin-right: auto;
+}
 
 .sticky-wrapper .site-navbar .site-menu-toggle .icon-menu.dark {
   color: black;
