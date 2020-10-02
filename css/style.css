@@ -1167,6 +1167,16 @@ body:after {
   color: #cf2a56 !important;
 }
 
+.text-highlight {
+    color:#cf2a56;
+    font-size: 20px;
+    
+}
+
+.text-highlight > strong {
+    font-weight: normal;
+}
+
 .progress {
   overflow: visible;
   margin-bottom: 26px;
