@@ -103,13 +103,25 @@ body:after {
   color: #fff;
 }
 .btn.btn-primary:hover {
-  background: #000;
-  border-color: #000;
-  color: #fff;
+  background: #6E7881;
+    color: white;
+    border-color: #6E7881;
 }
 .btn.btn-primary.btn-black--hover:hover {
   background: #666666;
   color: #fff;
+}
+.btn.btn-secondary {
+    background: transparent;
+    color: #981f40;
+    border: 2px solid #981f40;
+    font-weight: 500;
+}
+.btn.btn-secondary:active,
+.btn.btn-secondary:hover {
+    background: #6E7881;
+    color: white;
+    border-color: #6E7881;
 }
 
 .line-height-1 {
