@@ -1525,22 +1525,44 @@ a:hover {
     font-weight: 400;
 }
 
-.image-text-columns {}
+.image-text-columns {
+    background-color: #eeeeee;
+}
 
 .image-text-columns img {
     width: 100%;
-}
-
-.image-text-columns p {
-    margin-bottom: 0;
-    color: #111111;
 }
 
 .image-text-columns .text-block {
     background-color: #eeeeee;
     height: 160px;
     padding: 10px 15px;
-    align-content: center;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image-text-columns .text-block > p {
+    margin-bottom: 0;
+    color: #111111;
+}
+
+@media (min-width: 1199px) {
+    .image-text-columns img {
+        min-height: 253px;
+    }
+}
+
+@media (min-width: 992px) {
+    .image-text-columns img {
+        min-height: 213px;
+    }
+}
+
+@media (min-width: 768px) {
+    .image-text-columns img {
+        min-height: 160px;
+    }
 }
 
 @media (max-width: 576px) {
