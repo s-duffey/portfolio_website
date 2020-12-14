@@ -1,5 +1,7 @@
 User-agent: *
 
-Disallow: 
+Allow: /
+
+Disallow:
 
 Sitemap: https://www.sierraduffey.ca/sitemap.xml
