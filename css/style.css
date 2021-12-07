@@ -1567,6 +1567,24 @@ a:hover {
     color: #111111;
 }
 
+.package-table {
+    width:100%;
+    max-width: 900px;
+}
+
+.package-table tr {
+    border-bottom: 1px solid black;
+}
+
+.package-table td,
+.package-table th {
+    padding: 15px 8px 10px;
+}
+
+.package-table th {
+    color: #cf2a56;
+}
+
 @media (min-width: 1199px) {
     .image-text-columns img {
         min-height: 253px;
